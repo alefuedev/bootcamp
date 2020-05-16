@@ -8,6 +8,16 @@ p {
 	font-size: 32px;
 }
 
+.john-image {
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 80px;
+	width: 300px;
+	visibility: hidden;
+}
+
 .tanya-image {
 	margin: auto;
 	position: absolute;
