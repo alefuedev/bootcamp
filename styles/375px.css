@@ -13,7 +13,14 @@ p {
 	position: absolute;
 	left: 0;
 	right: 0;
-	text-align: center;
 	top: 80px;
 	width: 300px;
+}
+
+.image-background {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+	width: 360px;
 }
