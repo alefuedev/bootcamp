@@ -18,6 +18,19 @@ p {
 	visibility: hidden;
 }
 
+.left-side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 100px;
+}
+
+.quote-image {
+	margin-top: 320px;
+	margin-left: 140px;
+	width: 60px;
+}
+
 .tanya-image {
 	margin: auto;
 	position: absolute;
