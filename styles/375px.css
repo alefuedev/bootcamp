@@ -65,7 +65,8 @@ button:nth-child(2) {
 	z-index: 2;
 }
 
-.engineer {
+.engineer,
+.developer {
 	font-size: 20px;
 	margin-left: -100px;
 	margin-top: -54px;
