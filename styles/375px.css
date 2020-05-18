@@ -41,6 +41,17 @@ button:nth-child(2) {
 	height: 16px;
 	width: 14px;
 }
+.author {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.title {
+	color: hsl(240, 18%, 77%);
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: -14px;
+}
 
 .buttons {
 	background-color: white;
