@@ -8,6 +8,51 @@ p {
 	font-size: 32px;
 }
 
+span {
+	-webkit-box-shadow: -45px -111px 127px 25px rgba(27, 150, 194, 1);
+	-moz-box-shadow: -45px -111px 127px 25px rgba(27, 150, 194, 1);
+	box-shadow: 140px 60px 140px 45px hsl(240, 38%, 20%);
+	position: absolute;
+	top: 300px;
+	z-index: -1;
+}
+
+button {
+	background-color: white;
+	border: none;
+	margin-top: 10px;
+	width: 20px;
+}
+
+button:nth-child(1) {
+	position: absolute;
+	top: 2px;
+	left: 10px;
+}
+
+button:nth-child(2) {
+	position: absolute;
+	top: 2px;
+	right: 15px;
+}
+
+.arrow {
+	height: 16px;
+	width: 14px;
+}
+
+.buttons {
+	background-color: white;
+	border-radius: 25px;
+	height: 42px;
+	position: absolute;
+	text-align: center;
+	top: 359px;
+	left: 136px;
+	width: 90px;
+	z-index: 2;
+}
+
 .john-image {
 	margin: auto;
 	position: absolute;
@@ -38,6 +83,7 @@ p {
 	right: 0;
 	top: 80px;
 	width: 300px;
+	z-index: 1;
 }
 
 .image-background {
