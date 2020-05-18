@@ -5,7 +5,8 @@ body {
 
 p {
 	color: hsl(240, 38%, 20%);
-	font-size: 32px;
+	font-family: "Inter", sans-serif;
+	font-weight: 100;
 }
 
 span {
@@ -53,6 +54,14 @@ button:nth-child(2) {
 	z-index: 2;
 }
 
+.engineer {
+	font-size: 20px;
+	margin-left: -100px;
+	margin-top: -54px;
+	width: 360px;
+	text-align: center;
+}
+
 .john-image {
 	margin: auto;
 	position: absolute;
@@ -66,13 +75,12 @@ button:nth-child(2) {
 .left-side {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	margin: 100px;
 }
 
 .quote-image {
-	margin-top: 320px;
-	margin-left: 140px;
+	margin-top: 340px;
+	margin-left: 40px;
 	width: 60px;
 }
 
