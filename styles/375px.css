@@ -1,5 +1,5 @@
 body {
-	max-width: 375px;
+	max-height: 150px;
 	overflow-x: hidden;
 }
 
@@ -63,6 +63,14 @@ button:nth-child(2) {
 	left: 136px;
 	width: 90px;
 	z-index: 2;
+}
+
+.curve {
+	position: absolute;
+	bottom: -128px;
+	left: -46px;
+	height: 100px;
+	width: 398px;
 }
 
 .engineer {
