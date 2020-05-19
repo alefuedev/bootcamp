@@ -67,14 +67,14 @@ button:nth-child(2) {
 
 .curve {
 	position: absolute;
-	bottom: -128px;
+	bottom: -120px;
 	left: -46px;
 	height: 100px;
 	width: 398px;
 }
 
 .engineer {
-	visibility: hidden;
+	visibility: visible;
 }
 
 .engineer,
@@ -88,6 +88,7 @@ button:nth-child(2) {
 
 .developer {
 	margin-top: -250px;
+	visibility: hidden;
 }
 
 .john-image {
