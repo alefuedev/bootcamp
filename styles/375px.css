@@ -67,7 +67,7 @@ button:nth-child(2) {
 
 .curve {
 	position: absolute;
-	bottom: -120px;
+	bottom: -3px;
 	left: -46px;
 	height: 100px;
 	width: 398px;

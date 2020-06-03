@@ -1,0 +1,84 @@
+html {
+	padding-bottom: -20px;
+}
+
+span {
+	top: 472px;
+	left: 798px;
+}
+
+.arrow {
+	margin-top: 3px;
+}
+
+.author {
+	font-size: 1em !important;
+}
+
+.buttons {
+	position: absolute;
+	height: 46px;
+	left: 822px;
+	top: 574px;
+}
+
+.curve {
+	bottom: 180px;
+	height: 172px;
+	width: 752px;
+	top: 610px;
+}
+
+.developer p.author {
+	margin-top: 20px;
+}
+
+.developer p.title {
+	left: 148px;
+	top: 640px;
+}
+
+.developer p {
+	font-size: 2em;
+	text-align: left;
+	margin-left: 78px;
+	margin-top: -81px;
+	width: 792px;
+}
+
+.engineer p {
+	font-size: 2em;
+	text-align: left;
+	margin-left: 71px;
+	margin-top: 15px;
+	width: 800px;
+}
+
+.image-background {
+	height: 600px;
+	left: 760px;
+	width: 600px;
+	z-index: -1;
+}
+
+.quote-image {
+	margin-left: 80px;
+	margin-top: 130px;
+	width: 100px;
+}
+
+.right-side .tanya-image,
+.john-image {
+	position: absolute;
+	left: 632px;
+	top: 115px;
+	width: 480px;
+	z-index: -1;
+}
+
+.title {
+	position: absolute;
+	font-size: 1em !important;
+	left: 152px;
+	top: 545px;
+}
