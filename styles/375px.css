@@ -3,21 +3,6 @@ body {
 	overflow-x: hidden;
 }
 
-p {
-	color: hsl(240, 38%, 20%);
-	font-family: "Inter", sans-serif;
-	font-weight: 100;
-}
-
-span {
-	-webkit-box-shadow: -45px -111px 127px 25px rgba(27, 150, 194, 1);
-	-moz-box-shadow: -45px -111px 127px 25px rgba(27, 150, 194, 1);
-	box-shadow: 140px 60px 140px 45px hsl(240, 38%, 20%);
-	position: absolute;
-	top: 300px;
-	z-index: -1;
-}
-
 button {
 	background-color: white;
 	border: none;
@@ -37,20 +22,29 @@ button:nth-child(2) {
 	right: 15px;
 }
 
+p {
+	color: hsl(240, 38%, 20%);
+	font-family: "Inter", sans-serif;
+	font-weight: 100;
+}
+
+span {
+	-webkit-box-shadow: -45px -111px 127px 25px rgba(27, 150, 194, 1);
+	-moz-box-shadow: -45px -111px 127px 25px rgba(27, 150, 194, 1);
+	box-shadow: 140px 60px 140px 45px hsl(240, 38%, 20%);
+	position: absolute;
+	top: 300px;
+	z-index: -1;
+}
+
 .arrow {
 	height: 16px;
 	width: 14px;
 }
+
 .author {
 	font-size: 18px;
 	font-weight: bold;
-}
-
-.title {
-	color: hsl(240, 18%, 77%);
-	font-size: 18px;
-	font-weight: 500;
-	margin-top: -14px;
 }
 
 .buttons {
@@ -67,30 +61,41 @@ button:nth-child(2) {
 
 .curve {
 	position: absolute;
-	bottom: -3px;
+	bottom: -100px;
 	left: -46px;
 	height: 100px;
 	width: 398px;
+	margin-bottom: 0px;
+}
+
+.developer {
+	visibility: hidden;
+	position: absolute;
+	top: 564px;
 }
 
 .engineer {
 	visibility: visible;
+	padding-top: 94px;
 }
 
 .engineer,
 .developer {
 	font-size: 20px;
 	margin-left: -100px;
-	margin-top: -54px;
+	margin-top: -140px;
 	width: 360px;
 	text-align: center;
 }
 
-.developer {
-	margin-top: -250px;
-	visibility: hidden;
+.image-background {
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	right: 0px;
+	width: 376px;
+	height: 362px;
 }
-
 .john-image {
 	margin: auto;
 	position: absolute;
@@ -104,7 +109,8 @@ button:nth-child(2) {
 .left-side {
 	display: flex;
 	flex-direction: column;
-	margin: 100px;
+	margin-left: 95px;
+	margin-top: 80px;
 }
 
 .quote-image {
@@ -123,11 +129,9 @@ button:nth-child(2) {
 	z-index: 1;
 }
 
-.image-background {
-	position: absolute;
-	top: 45px;
-	left: 0px;
-	right: 0px;
-	width: 376px;
-	height: 362px;
+.title {
+	color: hsl(240, 18%, 77%);
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: -14px;
 }
