@@ -1,5 +1,5 @@
-html {
-	padding-bottom: -20px;
+* {
+	box-sizing: border-box;
 }
 
 span {
@@ -24,9 +24,9 @@ span {
 
 .curve {
 	bottom: 180px;
-	height: 172px;
-	width: 752px;
-	top: 610px;
+	height: 240px;
+	width: 787px;
+	top: 662px;
 }
 
 .developer p.author {
@@ -35,17 +35,20 @@ span {
 
 .developer p.title {
 	left: 148px;
-	top: 640px;
+	top: 264px;
 }
 
 .developer p {
 	font-size: 2em;
 	text-align: left;
 	margin-left: 78px;
-	margin-top: -81px;
+	margin-top: -163px;
 	width: 792px;
 }
 
+.developer p:nth-child(3) {
+	top: 286px;
+}
 .engineer p {
 	font-size: 2em;
 	text-align: left;
@@ -80,5 +83,5 @@ span {
 	position: absolute;
 	font-size: 1em !important;
 	left: 152px;
-	top: 545px;
+	top: 533px;
 }
